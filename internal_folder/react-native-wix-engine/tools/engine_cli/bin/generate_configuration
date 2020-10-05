@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+const {GenerateConfiguration} = require('../src/GenerateConfiguration');
+const generateConfiguration = new GenerateConfiguration();
+generateConfiguration.run(generateConfiguration.parseArguments());

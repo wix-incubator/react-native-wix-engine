@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
+    "allowJs": true
+  },
+  "include": [
+    "demo-modules/**/*",
+    "internal_folder/react-native-wix-engine/src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
