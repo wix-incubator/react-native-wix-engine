@@ -7,6 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "build-ts": "tsc",
+    "build-ios": "node internal_folder/react-native-wix-engine/scripts/build_scripts/build_ios",
+    "build-android": "node internal_folder/react-native-wix-engine/scripts/build_scripts/build_android",
+    "build": "tsc && node internal_folder/react-native-wix-engine/scripts/build_scripts/build_all",
     "generate_configuration": "internal_folder/react-native-wix-engine/bin/generate_configuration -r ./ -j demo-modules/moduleList.json",
     "test": "jest",
     "lint": "eslint ."
@@ -30,7 +33,9 @@
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.58.0",
     "react-test-renderer": "16.11.0",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "@types/lodash": "4.14.161",
+    "@types/npm": "^2.0.31"
   },
   "jest": {
     "preset": "react-native"
