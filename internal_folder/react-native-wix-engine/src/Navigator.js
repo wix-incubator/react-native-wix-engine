@@ -21,6 +21,25 @@ export class Navigator {
     });
   }
 
+  async startEmptyApp() {
+    Navigation.registerComponent('engine.noModulesFoundsScreen', () =>
+      require('./Screens/NoModulesFoundsScreen').NoModuleFoundScreen,
+    );
+    Navigation.setRoot({
+      root: {
+        stack: {
+          children: [
+            {
+              component: {
+                name: 'engine.noModulesFoundsScreen',
+              },
+            },
+          ],
+        },
+      },
+    });
+  }
+
   async convertTabs(tabs) {
     const convertedTabs = tabs.map(async tab => {
       return {

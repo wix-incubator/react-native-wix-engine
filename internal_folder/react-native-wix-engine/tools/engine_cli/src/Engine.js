@@ -91,7 +91,7 @@ async function run(args) {
       root_path: `${engineDir}/../..`,
       package_json_path:
         args.custom_config_json || `${process.cwd()}/package.json`,
-      watch: true,
+      watch: false,
       force_localhost: args.force_localhost,
     });
 

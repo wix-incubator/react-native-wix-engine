@@ -14,6 +14,10 @@ export class AppLauncher {
    */
   async launch(appAlreadyLaunched) {
     const tabs = this.moduleManager.getTabs();
-    await this.navigator.startTabbedApp(tabs);
+    if (tabs && tabs.length > 0) {
+      await this.navigator.startTabbedApp(tabs);
+    } else {
+      await this.navigator.startEmptyApp();
+    }
   }
 }
