@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "android": "internal_folder/react-native-wix-engine/bin/engine -p demo-modules/moduleList.json -a",
+    "ios": "internal_folder/react-native-wix-engine/bin/engine -p demo-modules/moduleList.json -i",
     "start": "react-native start",
     "build-ts": "tsc",
     "build-ios": "node internal_folder/react-native-wix-engine/scripts/build_scripts/build_ios",

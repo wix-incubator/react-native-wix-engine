@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+const engine = require('../src/Engine');
+engine.run(engine.parseArgs());
