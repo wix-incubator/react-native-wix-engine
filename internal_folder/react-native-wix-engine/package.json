@@ -1,15 +1,25 @@
 {
-  "name": "ReactNativeWixEngine",
+  "name": "react-native-wix-engine",
   "version": "0.0.1",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix-incubator/react-native-wix-engine.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wix-incubator/react-native-wix-engine/issues"
+  },
+  "homepage": "https://github.com/wix-incubator/react-native-wix-engine#readme",
+  "description": "",
   "scripts": {
     "android": "internal_folder/react-native-wix-engine/bin/engine -p demo-modules/moduleList.json -a",
     "ios": "internal_folder/react-native-wix-engine/bin/engine -p demo-modules/moduleList.json -i",
-    "start": "react-native start",
+    "start-empty-engine": "internal_folder/react-native-wix-engine/bin/engine -ia",
     "build-ts": "tsc",
     "build-ios": "node internal_folder/react-native-wix-engine/scripts/build_scripts/build_ios",
     "build-android": "node internal_folder/react-native-wix-engine/scripts/build_scripts/build_android",
     "build": "tsc && node internal_folder/react-native-wix-engine/scripts/build_scripts/build_all",
+    "release": "cd internal_folder/react-native-wix-engine && npm publish",
     "generate_configuration": "internal_folder/react-native-wix-engine/bin/generate_configuration -r ./ -j demo-modules/moduleList.json",
     "test": "jest",
     "lint": "eslint ."
@@ -37,7 +47,7 @@
     "@types/lodash": "4.14.161",
     "@types/npm": "^2.0.31"
   },
-  "jest": {
-    "preset": "react-native"
+  "engineConfig": {
+    "modules": []
   }
 }

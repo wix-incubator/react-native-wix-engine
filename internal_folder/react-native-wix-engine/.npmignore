@@ -1,0 +1,10 @@
+/ios/DerivedData
+/ios/build
+/ios/Pods
+/android/.gradle
+/android/build
+/android/app/build
+/android/.idea
+/.npmignore
+*.test.js
+*.e2e.js
