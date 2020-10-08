@@ -1,6 +1,6 @@
 {
   "name": "react-native-wix-engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wix-incubator/react-native-wix-engine.git"
@@ -23,6 +23,10 @@
     "generate_configuration": "internal_folder/react-native-wix-engine/bin/generate_configuration -r ./ -j demo-modules/moduleList.json",
     "test": "jest",
     "lint": "eslint ."
+  },
+  "bin": {
+    "rn-wix-config": "./bin/generate_configuration",
+    "rn-wix-engine": "./bin/engine"
   },
   "dependencies": {
     "react": "16.11.0",
