@@ -15,12 +15,14 @@ async function run() {
   NativeBuilds.buildIOS(simulator, BuildType.dev);
   // you can add how many build flavors you want
 
-  // enable next link to build the also for real devices in addition to simulator build
+  // Todo:: implement next line to build also for real devices in addition to simulator build
   //NativeBuilds.buildIOS(iphone, BuildType.dev);
+
+  // Todo:: implement next line to build release for real devices
+  //NativeBuilds.buildIOS(iphone, BuildType.release);
 }
 
 function installPods() {
   console.log('\n*** Installing Pods ***');
   exec.execSync(`cd ${__dirname}/../../ios && pod install`);
 }
-

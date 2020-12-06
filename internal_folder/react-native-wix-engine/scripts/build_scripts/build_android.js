@@ -9,4 +9,7 @@ run().catch(error => {
 
 async function run() {
   NativeBuilds.buildAndroid(BuildType.dev);
+
+  // Todo:: implement next line to build release for real devices
+  // NativeBuilds.buildAndroid(BuildType.release);
 }
