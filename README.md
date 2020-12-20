@@ -1,7 +1,8 @@
 # react-native-wix-engine
 
 This project is a partially implementation of Wix Multi-Module architecture for react-native application, you can read more here:
-https://medium.com/@omribruchim/react-native-at-wix-the-architecture-db6361764da6
+https://medium.com/wix-engineering/react-native-at-wix-the-architecture-ii-deep-dive-9cfcb3c2822c
+
 
 <p align="center">
     <img src="https://cdn-images-1.medium.com/max/1600/1*0uOMzP8Kcc6RLrcu8MdYGg.png"/>
