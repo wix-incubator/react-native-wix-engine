@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+2	<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+3	    <device id="retina4_7" orientation="portrait" appearance="light"/>
+4	    <dependencies>
+5	        <deployment identifier="iOS"/>
+6	        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+7	        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+8	        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+9	    </dependencies>
+10	    <scenes>
+11	        <!--View Controller-->
+12	        <scene sceneID="EHf-IW-A2E">
+13	            <objects>
+14	                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+15	                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+16	                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+17	                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+18	                        <subviews>
+19	                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RnDiffApp" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+20	                                <rect key="frame" x="0.0" y="202" width="375" height="43"/>
+21	                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+22	                                <nil key="highlightedColor"/>
+23	                            </label>
+24	                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by React Native" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="MN2-I3-ftu">
+25	                                <rect key="frame" x="0.0" y="626" width="375" height="21"/>
+26	                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+27	                                <nil key="highlightedColor"/>
+28	                            </label>
+29	                        </subviews>
+30	                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+31	                        <constraints>
+32	                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="MN2-I3-ftu" secondAttribute="bottom" constant="20" id="OZV-Vh-mqD"/>
+33	                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="GJd-Yh-RWb" secondAttribute="centerX" id="Q3B-4B-g5h"/>
+34	                            <constraint firstItem="MN2-I3-ftu" firstAttribute="centerX" secondItem="Bcu-3y-fUS" secondAttribute="centerX" id="akx-eg-2ui"/>
+35	                            <constraint firstItem="MN2-I3-ftu" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="i1E-0Y-4RG"/>
+36	                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="bottom" multiplier="1/3" constant="1" id="moa-c2-u7t"/>
+37	                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" symbolic="YES" id="x7j-FC-K8j"/>
+38	                        </constraints>
+39	                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+40	                    </view>
+41	                </viewController>
+42	                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+43	            </objects>
+44	            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+45	        </scene>
+46	    </scenes>
+47	</document>
