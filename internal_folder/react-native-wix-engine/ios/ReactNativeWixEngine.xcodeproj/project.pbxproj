@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2ADAA9A64DC3F595FF2ECE5E /* libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA63BB4F45FEC2F6C8ACB3D /* libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DEF136CC4F9D1FA841490348 /* libPods-ReactNativeWixEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC179B7D411E6173DFD5A06A /* libPods-ReactNativeWixEngine.a */; };
+		2749488D076AAD9A25600F24 /* libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF708461DB1CE59150FDCCE6 /* libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a */; };
+		53C2A3C826A0D31A0056D637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C2A3C726A0D31A0056D637 /* LaunchScreen.storyboard */; };
+		80DED30FF1DCCB911DD717C3 /* libPods-ReactNativeWixEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D40DA66174A665E608B023FC /* libPods-ReactNativeWixEngine.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeWixEngine/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeWixEngine/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeWixEngine/main.m; sourceTree = "<group>"; };
-		525A8476C7D23A1B4AD7BB9D /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeWixEngine/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		92ED620FC24B562BFFABE910 /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9BA63BB4F45FEC2F6C8ACB3D /* libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0DDFD9338B2C9F081C7039D /* Pods-ReactNativeWixEngine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeWixEngine.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine.debug.xcconfig"; sourceTree = "<group>"; };
-		B9F00B27FD3529CCB87B3F8D /* Pods-ReactNativeWixEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeWixEngine.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine.release.xcconfig"; sourceTree = "<group>"; };
-		EC179B7D411E6173DFD5A06A /* libPods-ReactNativeWixEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeWixEngine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D00AB72137DDEBC505A674C /* Pods-ReactNativeWixEngine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeWixEngine.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine.debug.xcconfig"; sourceTree = "<group>"; };
+		4839FE67F436401E2890EEB9 /* Pods-ReactNativeWixEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeWixEngine.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine.release.xcconfig"; sourceTree = "<group>"; };
+		53C2A3C726A0D31A0056D637 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF708461DB1CE59150FDCCE6 /* libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB78261DFC3A74CCCD2EC62 /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D40DA66174A665E608B023FC /* libPods-ReactNativeWixEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeWixEngine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2107259B74B30EFF0596FE6 /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ADAA9A64DC3F595FF2ECE5E /* libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a in Frameworks */,
+				2749488D076AAD9A25600F24 /* libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEF136CC4F9D1FA841490348 /* libPods-ReactNativeWixEngine.a in Frameworks */,
+				80DED30FF1DCCB911DD717C3 /* libPods-ReactNativeWixEngine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +90,8 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				53C2A3C726A0D31A0056D637 /* LaunchScreen.storyboard */,
 			);
 			name = ReactNativeWixEngine;
 			sourceTree = "<group>";
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				EC179B7D411E6173DFD5A06A /* libPods-ReactNativeWixEngine.a */,
-				9BA63BB4F45FEC2F6C8ACB3D /* libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a */,
+				D40DA66174A665E608B023FC /* libPods-ReactNativeWixEngine.a */,
+				BF708461DB1CE59150FDCCE6 /* libPods-ReactNativeWixEngine-ReactNativeWixEngineTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		F4E5FF25200E8FC784152966 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A0DDFD9338B2C9F081C7039D /* Pods-ReactNativeWixEngine.debug.xcconfig */,
-				B9F00B27FD3529CCB87B3F8D /* Pods-ReactNativeWixEngine.release.xcconfig */,
-				92ED620FC24B562BFFABE910 /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.debug.xcconfig */,
-				525A8476C7D23A1B4AD7BB9D /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.release.xcconfig */,
+				2D00AB72137DDEBC505A674C /* Pods-ReactNativeWixEngine.debug.xcconfig */,
+				4839FE67F436401E2890EEB9 /* Pods-ReactNativeWixEngine.release.xcconfig */,
+				CAB78261DFC3A74CCCD2EC62 /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.debug.xcconfig */,
+				F2107259B74B30EFF0596FE6 /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeWixEngineTests" */;
 			buildPhases = (
-				833954DA6C11B80686481BBC /* [CP] Check Pods Manifest.lock */,
+				6B4378B83BDD72817BDC5BB8 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				CDAE620C8957617183830318 /* [CP] Embed Pods Frameworks */,
-				BA5DE8A5B0DEC0E22B67B674 /* [CP] Copy Pods Resources */,
+				C58494BADA86EE71D0C621C1 /* [CP] Embed Pods Frameworks */,
+				B71E1FE4E273E04A1FD75B46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeWixEngine" */;
 			buildPhases = (
-				CA54D77853491011EDFAD098 /* [CP] Check Pods Manifest.lock */,
+				093B462A7C9C9560767B5E68 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				927D6DEC88E9156BBCDFBE75 /* [CP] Embed Pods Frameworks */,
-				82CAA2EEA8438784381CABD2 /* [CP] Copy Pods Resources */,
+				AA815A0DE5B03EA9A622A0FA /* [CP] Embed Pods Frameworks */,
+				F9EE4A02C65763EC576F69E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,8 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				53C2A3C826A0D31A0056D637 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,82 +262,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../../../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		82CAA2EEA8438784381CABD2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		833954DA6C11B80686481BBC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		927D6DEC88E9156BBCDFBE75 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BA5DE8A5B0DEC0E22B67B674 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CA54D77853491011EDFAD098 /* [CP] Check Pods Manifest.lock */ = {
+		093B462A7C9C9560767B5E68 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,7 +286,63 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CDAE620C8957617183830318 /* [CP] Embed Pods Frameworks */ = {
+		6B4378B83BDD72817BDC5BB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA815A0DE5B03EA9A622A0FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71E1FE4E273E04A1FD75B46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58494BADA86EE71D0C621C1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,6 +357,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests/Pods-ReactNativeWixEngine-ReactNativeWixEngineTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9EE4A02C65763EC576F69E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeWixEngine/Pods-ReactNativeWixEngine-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -428,7 +428,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92ED620FC24B562BFFABE910 /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.debug.xcconfig */;
+			baseConfigurationReference = CAB78261DFC3A74CCCD2EC62 /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -455,7 +455,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 525A8476C7D23A1B4AD7BB9D /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.release.xcconfig */;
+			baseConfigurationReference = F2107259B74B30EFF0596FE6 /* Pods-ReactNativeWixEngine-ReactNativeWixEngineTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -479,7 +479,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0DDFD9338B2C9F081C7039D /* Pods-ReactNativeWixEngine.debug.xcconfig */;
+			baseConfigurationReference = 2D00AB72137DDEBC505A674C /* Pods-ReactNativeWixEngine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -509,7 +509,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9F00B27FD3529CCB87B3F8D /* Pods-ReactNativeWixEngine.release.xcconfig */;
+			baseConfigurationReference = 4839FE67F436401E2890EEB9 /* Pods-ReactNativeWixEngine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -517,6 +517,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = ReactNativeWixEngine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
