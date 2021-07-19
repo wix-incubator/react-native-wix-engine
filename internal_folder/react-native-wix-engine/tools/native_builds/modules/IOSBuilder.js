@@ -50,7 +50,7 @@ class IOSBuilder {
   }
 
   _copyToAppBuilds(platform, buildType, buildFlavor) {
-    const source = `${this._engineIosDir}/Build/Products/${buildFlavor.flavorDir}-${platform.name}/ReactNativeWixEngine.${platform.ext}`;
+    const source = `${this._engineIosDir}/DerivedData/ReactNativeWixEngine/build/Products/${buildFlavor.flavorDir}-${platform.name}/ReactNativeWixEngine.${platform.ext}`;
     const destinationDir = `${this._repoDir}/internal_folder/react-native-wix-engine/app_builds/${platform.name}/${buildType}`;
     execSync(`mkdir -p ${destinationDir}`);
     const destination = `${destinationDir}/ReactNativeWixEngine.app`;
