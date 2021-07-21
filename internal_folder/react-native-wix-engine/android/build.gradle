@@ -2,7 +2,6 @@
 
 buildscript {
     ext {
-        RNNKotlinVersion = "1.5.20"
         buildToolsVersion = "29.0.3"
         minSdkVersion = 21
         compileSdkVersion = 29
