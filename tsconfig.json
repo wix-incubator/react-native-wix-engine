@@ -1,4 +1,5 @@
 {
+  "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
@@ -17,7 +18,5 @@
     "demo-modules/**/*",
     "internal_folder/react-native-wix-engine/src/**/*"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
