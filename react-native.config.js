@@ -5,7 +5,7 @@ module.exports = {
       sourceDir: './internal_folder/react-native-wix-engine/android',
     },
     ios: {
-      project: './internal_folder/react-native-wix-engine/ios',
+      sourceDir: './internal_folder/react-native-wix-engine/ios',
     },
   },
-}
+};
