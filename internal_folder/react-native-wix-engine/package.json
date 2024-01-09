@@ -35,7 +35,7 @@
     "node-fetch": "1.7.3",
     "react": "18.2.0",
     "react-autobind": "1.0.6",
-    "react-native": "0.72.6",
+    "react-native": "0.72.8",
     "react-native-gesture-handler": "2.13.4",
     "react-native-navigation": "7.37.1"
   },
