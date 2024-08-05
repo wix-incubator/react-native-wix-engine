@@ -1,19 +1,5 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json",
-  "compilerOptions": {
-    "target": "esnext",
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "jsx": "react-native",
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noEmit": true,
-    "allowJs": true
-  },
+  "extends": "@react-native/typescript-config/tsconfig.json",
   "include": [
     "demo-modules/**/*",
     "internal_folder/react-native-wix-engine/src/**/*"
